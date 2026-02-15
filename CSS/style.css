@@ -54,3 +54,26 @@ body{
     margin-top: 100px;
     width: 100%;
 }
+
+.content{
+    display: block;
+    height: 100vh;
+}
+
+footer{
+    color: white;
+    display: block;
+    margin: auto;
+    position: sticky;
+    bottom: 0;
+
+    .footer{
+        text-align: center;
+        font-family: doves;
+        a, a:visited{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
