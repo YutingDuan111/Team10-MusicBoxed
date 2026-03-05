@@ -13,14 +13,14 @@
 
 /* ---------- THEME ---------- */
 :root {
-  --bg: lightblue;          
-  --bg2: #e0f6ff;           /* lighter band for sections */
-  --panel: rgba(0,0,0,0.06);
-  --panel2: rgba(0,0,0,0.035);
-  --border: rgba(0,0,0,0.14);
+  --bg: #2f3336;          
+  --bg2: #262a2d;           /* darker band for sections */
+  --panel: rgba(255,255,255,0.06);
+  --panel2: rgba(255,255,255,0.035);
+  --border: rgba(255,255,255,0.14);
 
-  --text: #000000;
-  --muted: rgba(0,0,0,0.72);
+  --text: #f3f6fb;
+  --muted: rgba(243,246,251,0.72);
 
   --accent: #f08a8a;        /* lightcoral but tuned */
   --accent2: #b8a6ff;       /* subtle purple highlight */
