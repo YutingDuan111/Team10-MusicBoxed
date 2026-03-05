@@ -1,0 +1,17 @@
+{
+  "name": "musicboxed",
+  "version": "1.0.0",
+  "description": "Music management app with user authentication",
+  "main": "JS/index.js",
+  "scripts": {
+    "start": "node JS/index.js",
+    "dev": "node JS/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "mongodb": "^7.1.0"
+  }
+}
