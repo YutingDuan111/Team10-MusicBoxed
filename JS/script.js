@@ -1,7 +1,7 @@
 // API Base URL - Change this when you deploy to Render
 // For local testing, use: http://localhost:3000
 // For production, use: https://your-render-app.onrender.com
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = 'https://musicboxed-api.onrender.com';
 
 // Switch between Login and Signup tabs
 function switchTab(tab) {
