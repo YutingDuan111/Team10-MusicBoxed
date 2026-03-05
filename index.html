@@ -1,32 +1,140 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MusicBoxd</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
 
-<html>
-    <head>
-        <title>MusicBoxed</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="CSS/style.css">
-    </head>
+  <body>
+    <nav>
+      <h1 id="Logo"><a href="index.html">M u s i c B o x d</a></h1>
 
-    <body>
+      <ul class="menu">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="playlists.html">Playlists</a></li>
+        <li><a href="signin.html">Sign In!</a></li>
+      </ul>
+    </nav>
 
+    <main>
+      <!-- HERO -->
+      <div class="header">
+        <div class="container hero">
+          <div>
+            <span class="pill">Letterboxd, but for music</span>
+            <h2>Log albums. Rate tracks. Write reviews.</h2>
+            <p>
+              Build a listening diary, follow friends, and discover music through
+              people.
+            </p>
 
-        <nav>    
-            <h1 id="Logo">M u s i c B o x d</h1>
+            <form class="search">
+              <input placeholder="Search albums, artists, songs..." />
+              <button type="submit">Search</button>
+            </form>
+          </div>
 
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Artists</a></li>
-                <li><a href="#">Sign Up!</a></li>
-            </ul>
-        </nav>
-
-
-        <div class="header">
-
+          <div class="card">
+            <h3 style="margin: 10px 10px 10px;font-size: 23px;">Featured This Week</h3>
+            <p style="margin: 10px 10px 10px;">Community favorites and new releases!</p>
+            <p style="margin: 12px 10px 10px; color: white; font-weight: bold;">
+              ALBUM — ARTIST
+            </p>
+            <p style="margin: 3px 10px 10px;">ALBUM — ARTIST</p>
+            <p style="margin: 6px 10px 10px;">ALBUM — ARTIST</p>
+          </div>
         </div>
+      </div>
 
+      <!-- TRENDING -->
+      <section class="section">
+        <div class="container">
+          <h3 style="margin: 12px 1px 12px;font-size: 20px;">Trending albums</h3>
+          <p>What people are rating right now.</p>
 
-    </body>
+          <div class="grid">
+            <div class="tile">
+              <div class="cover"></div>
+              <h4>Album</h4>
+              <small>Artist Name • 2026</small>
+            </div>
 
+            <div class="tile">
+              <div class="cover"></div>
+              <h4>Album</h4>
+              <small>Artist Name • 2026</small>
+            </div>
+
+            <div class="tile">
+              <div class="cover"></div>
+              <h4>Album</h4>
+              <small>Artist Name • 2026</small>
+            </div>
+
+            <div class="tile">
+              <div class="cover"></div>
+              <h4>Album</h4>
+              <small>Artist Name • 2026</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RECENT REVIEWS -->
+      <section class="section">
+        <div class="container">
+          <h3 style="margin: 12px 1px 12px;font-size: 20px;">Recent Reviews</h3>
+
+          <div class="grid">
+            <div class="card">
+              <h3 style="margin: 12px 12px 12px;font-size: 18px;">Top review</h3>
+              <p style="margin: 12px 12px 12px; color: white;">
+                “blah blah”
+              </p>
+              <p style="margin: 12px 12px 12px;">@user • album</p>
+            </div>
+
+            <div class="card">
+              <h3 style="margin: 12px 12px 12px;font-size: 18px;">Review</h3>
+              <p style="margin: 12px 12px 12px; color: white;">
+                “blah blah”
+              </p>
+              <p style="margin: 12px 12px 12px;">@user • album</p>
+            </div>
+
+            <div class="card">
+              <h3 style="margin: 12px 12px 12px;font-size: 18px;">Review</h3>
+              <p style="margin: 12px 12px 12px; color: white;">
+                “blah blah”
+              </p>
+              <p style="margin: 12px 12px 12px;">@user • album</p>
+            </div>
+
+            <div class="card">
+              <h3 style="margin: 12px 12px 12px;font-size: 18px;">Review</h3>
+              <p style="margin: 12px 12px 12px; color: white;">
+                “blah blah”
+              </p>
+              <p style="margin: 12px 12px 12px;">@user • album</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container footer-row">
+          <div>
+            created by Team 10 • MusicBoxd <span id="year"></span>
+          </div>
+
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="JS/script.js"></script>
+  </body>
 </html>

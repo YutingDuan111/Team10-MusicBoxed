@@ -1,0 +1,44 @@
+.sign-in-box {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  width: 400px;
+  padding: 30px;
+  margin: 150px auto;   /* centers horizontally + spacing from top */
+  text-align: center;
+}
+
+.sign-in-box h2 {
+  margin-bottom: 20px;
+  font-family: sanctuary;
+}
+
+/* inputs */
+.sign-in-box input {
+  display: block;
+  width: 100%;
+  height: 45px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.08);
+  color: white;
+}
+
+/* button */
+.sign-in-box button {
+  width: 100%;
+  height: 45px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background: lightcoral;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign-in-box button:hover {
+  opacity: 0.9;
+}
