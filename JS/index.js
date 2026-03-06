@@ -1,16 +1,37 @@
-const express = require("express");
-const database = require("./database.js");
-const wikiRoutes = require("./routes/wiki.js");
+const header = document.querySelector('.header');
+const slides = document.querySelectorAll('.slide');
 
-const app = express();
-
-app.use(express.json({limit: '5mb'}));
-app.use(express.static("./public"));
+let currentIndex = 0; 
+let autoSlideInterval;
 
 
 
-const mongoose = require("mongoose");
 
-app.use("/api/wiki", wikiRoutes);
 
-app.listen(3000, () => console.log("Server Started on port 3000."));
+
+function showSlide(index) {
+    if (index >= slides.length) {
+        currentIndex = 0; 
+    } 
+    else if (index < 0) {
+        currentIndex = slides.length - 1; 
+    } 
+    else {
+        currentIndex = index; 
+    }
+    header.style.transform = `translateX(-${currentIndex * 100}%)`; 
+}
+
+
+function nextSlide(){
+    showSlide(currentIndex + 1)
+}
+
+function autoSlide(){
+    autoSlideInterval = setInterval(nextSlide, 10000);
+}
+
+
+window.addEventListener("load", (event) => {
+    autoSlide();
+});
