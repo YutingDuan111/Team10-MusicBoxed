@@ -1,0 +1,36 @@
+.content{
+    width: 100vw;
+    margin-top: 200px;
+    .artists{
+        width: 80%;
+        display: block;
+        margin: auto;
+        
+        .catalogue{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            li{
+                text-align: center;
+                font-size: 350%;
+                background-color: rgb(75, 79, 94);
+                
+                margin: 15px;
+                padding: 20px;
+                padding-left: 30px;
+                padding-right: 30px;
+                
+                border-radius: 10px;
+                border: solid rgb(144, 145, 147) 0.15px;
+                a, a:visited{
+                    color: white;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: lightcoral;
+                }
+            }
+        }
+    }
+}

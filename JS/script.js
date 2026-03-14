@@ -1,3 +1,15 @@
+let logo = document.getElementById("Logo");
+
+logo.getAttribute("color");
+
+
+let button = document.getElementById("button");
+
+button.onclick("function(){
+    
+    logo.setAttribute("color", "blue");
+
+    ")
 // API Base URL - Change this when you deploy to Render
 // For local testing, use: http://localhost:3000
 // For production, use: https://your-render-app.onrender.com
