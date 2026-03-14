@@ -5,7 +5,7 @@
         width: 80%;
         display: block;
         margin: auto;
-        
+        text-align: center;
         .catalogue{
             list-style-type: none;
             display: flex;
