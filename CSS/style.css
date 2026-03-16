@@ -188,33 +188,3 @@ footer{
         }
     }
 }
-
-.popular-playlists{
-    text-align: center;
-}
-
-.popular-playlists h1{
-    margin-bottom: 40px;
-}
-
-.playlist-grid{
-    display:flex;
-    justify-content:center;
-    gap:40px;
-}
-.playlist-grid{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 40px;
-}
-
-.playlist-card{
-    width: 320px;
-}
-
-.content{
-    font-family: doves;
-    overflow-x: hidden;
-    padding-top: 140px;
-}
